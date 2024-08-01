@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodoro.Domain", "Pomodoro.Domain\Pomodoro.Domain.csproj", "{D4EB7998-435A-4FEC-97E7-EE168A8DF95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodoro.Application", "Pomodoro.Application\Pomodoro.Application.csproj", "{643842EE-9665-43A6-8032-6FE1B600EE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodoro.Infraestructure", "Pomodoro.Infraestructure\Pomodoro.Infraestructure.csproj", "{4D330F69-3E2C-4198-A168-636174C61C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodoro.API", "Pomodoro.API\Pomodoro.API.csproj", "{23815DFA-2349-4525-900F-DD3C37D22178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4EB7998-435A-4FEC-97E7-EE168A8DF95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EB7998-435A-4FEC-97E7-EE168A8DF95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EB7998-435A-4FEC-97E7-EE168A8DF95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EB7998-435A-4FEC-97E7-EE168A8DF95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643842EE-9665-43A6-8032-6FE1B600EE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643842EE-9665-43A6-8032-6FE1B600EE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643842EE-9665-43A6-8032-6FE1B600EE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643842EE-9665-43A6-8032-6FE1B600EE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D330F69-3E2C-4198-A168-636174C61C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D330F69-3E2C-4198-A168-636174C61C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D330F69-3E2C-4198-A168-636174C61C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D330F69-3E2C-4198-A168-636174C61C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23815DFA-2349-4525-900F-DD3C37D22178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23815DFA-2349-4525-900F-DD3C37D22178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23815DFA-2349-4525-900F-DD3C37D22178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23815DFA-2349-4525-900F-DD3C37D22178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50022CC0-C931-4BC9-A6BA-97F9D4A34255}
+	EndGlobalSection
+EndGlobal
